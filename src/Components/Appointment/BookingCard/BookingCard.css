@@ -1,0 +1,48 @@
+.bookingCard {
+	padding: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.bookingCard .bgContainer {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 30px 50px;
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+
+.bookingCard .bgContainer:hover {
+	transform: scale(103%);
+	box-shadow: 1.5px 2.5px 8px 1px rgba(0, 0, 0, 0.1);
+}
+.bookingCard h4 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #1cc7c1;
+	margin-bottom: 10px;
+}
+.bookingCard h5 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #3a4256;
+	margin-bottom: 10px;
+}
+.bookingCard p {
+	font-size: 12px;
+	font-weight: 400;
+	color: #8b8888;
+	margin-bottom: 10px;
+}
+.bookingCard button {
+	font-weight: 700;
+	font-size: 12px;
+	color: #ffffff;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	padding: 10px 20px;
+	border-radius: 2px;
+	border: none;
+}

@@ -1,0 +1,51 @@
+.ReactModal__Content h4 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #1cc7c1;
+	margin-bottom: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.ReactModal__Content p {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #8b8888;
+	margin-bottom: 20px;
+}
+.ReactModal__Content .formContainer {
+	width: 70%;
+	margin: auto;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.ReactModal__Content .form-control,
+.ReactModal__Content .form-select {
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid #a5a5a5;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+.ReactModal__Content .form-control:focus,
+.ReactModal__Content .form-select:focus {
+	outline: 1px solid #a5a5a5;
+}
+.ReactModal__Content .form-control::placeholder,
+.ReactModal__Content .form-select::placeholder {
+	color: #8b8888;
+}
+.ReactModal__Content .button {
+	font-weight: 700;
+	font-size: 12px;
+	color: #ffffff;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	padding: 10px 20px;
+	border-radius: 2px;
+	border: none;
+}

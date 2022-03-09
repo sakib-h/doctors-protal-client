@@ -1,0 +1,19 @@
+.header {
+	position: relative;
+	background: url(../../../images/bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: none;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.header::after {
+	height: 700px;
+	content: " ";
+	position: absolute;
+	width: 32%;
+	top: 0;
+	right: 0;
+	background-color: #3a4256;
+	z-index: -1;
+}

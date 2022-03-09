@@ -1,0 +1,20 @@
+.doctorsData {
+	padding: 20px;
+}
+.doctorsData h3 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #3c3c3e;
+	margin-top: 20px;
+}
+.doctorsData .contactInfo h5 {
+	padding-left: 5px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #b3b2b5;
+	margin-bottom: 0;
+}
+.doctorsData .contactInfo .icon {
+	font-size: 18px;
+	color: #5fc7c7;
+}

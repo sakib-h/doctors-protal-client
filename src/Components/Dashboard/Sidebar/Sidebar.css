@@ -1,0 +1,36 @@
+.sidebar {
+	height: 100vh;
+	color: #ffffff;
+	background: linear-gradient(
+		180deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	padding: 30px;
+	padding-top: 50px;
+}
+.sidebar .buttonContainer {
+	padding-bottom: 0;
+	margin-bottom: 50px;
+}
+.sidebar a {
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #ffffff;
+	padding-bottom: 0;
+}
+.sidebar .icon {
+	padding-bottom: 0;
+}
+
+.sidebar ion-icon {
+	font-size: 18px;
+	padding-bottom: 0;
+	padding-right: 20px;
+	line-height: 0;
+}
+.sidebar .setting {
+	margin-top: 200px;
+	margin-bottom: 0px;
+}

@@ -1,0 +1,122 @@
+.login {
+	position: relative;
+	height: 100vh;
+}
+.login p {
+	margin-bottom: 0;
+}
+.login a {
+	font-size: 12px;
+	font-weight: 700;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.login h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.login h4 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.login h5 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.login .forgetPassword {
+	font-size: 12px;
+	font-weight: 400;
+	color: #686868;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-bottom: 20px;
+	background: none;
+	border: none;
+}
+
+.login .imgContainer {
+	position: absolute;
+	bottom: 0;
+}
+.login .form_Container {
+	width: 90%;
+	padding: 30px 5px;
+}
+.login .formGroup {
+	position: relative;
+	margin: 20px 0;
+	border-bottom: 1.5px solid rgba(104, 104, 104, 0.7);
+}
+
+.login input {
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+}
+.login input:focus {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.login label {
+	font-size: 12px;
+	color: rgba(104, 104, 104, 0.7);
+	pointer-events: none;
+}
+.login .submit {
+	font-weight: 700;
+	font-size: 12px;
+	color: #ffffff;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	margin-bottom: 40px;
+	padding: 10px 20px;
+	border-radius: 2px;
+	border: none;
+}
+.login .socialLogin {
+	margin-bottom: 40px;
+}
+
+.login .socialLoginBtn {
+	width: 48%;
+	font-size: 12px;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+}
+.login .googleBtn {
+	background-color: #ffffff;
+	color: rgb(63, 63, 63);
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+
+.login .facebookBtn {
+	background-color: #3b5998;
+	color: #ffffff;
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+
+.login .googleBtn:hover,
+.login .facebookBtn:hover {
+	transform: scale(103%);
+	box-shadow: 1.5px 2.5px 8px 1px rgba(0, 0, 0, 0.1);
+}

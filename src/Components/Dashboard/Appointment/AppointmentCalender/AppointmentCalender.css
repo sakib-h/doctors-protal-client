@@ -1,0 +1,80 @@
+.AppointmentCalender {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 80px;
+}
+.AppointmentCalender h1 {
+	color: #203047;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.AppointmentCalender .react-calendar {
+	width: 90%;
+	padding: 10px;
+	background-color: #fff;
+	color: #686868;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+	line-height: 1.125em;
+}
+.AppointmentCalender .react-calendar__navigation {
+	margin: 40px 0;
+}
+.AppointmentCalender .react-calendar__navigation button {
+	color: #686868;
+	background: none;
+	font-size: 16px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.AppointmentCalender .react-calendar__month-view__weekdays__weekday {
+	font-weight: 500;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.AppointmentCalender .react-calendar__month-view__weekdays__weekday abbr {
+	text-decoration: none;
+}
+
+.AppointmentCalender .react-calendar__tile {
+	padding: 10px 5px;
+	margin: 10px 0;
+}
+
+.AppointmentCalender .react-calendar__month-view__days__day {
+	color: #686868;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.AppointmentCalender .react-calendar__month-view__days__day--neighboringMonth {
+	color: rgba(104, 104, 104, 0.4);
+}
+.AppointmentCalender
+	.react-calendar__month-view__days__day--weekend.react-calendar__month-view__days__day--neighboringMonth {
+	color: rgba(231, 2, 2, 0.4);
+}
+.AppointmentCalender .react-calendar__month-view__days__day--weekend {
+	color: #e70202;
+}
+
+.AppointmentCalender .react-calendar__tile:enabled:hover,
+.AppointmentCalender .react-calendar__tile:enabled:focus {
+	background: linear-gradient(
+		0deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	color: #fff;
+	border-radius: 5px;
+}
+.AppointmentCalender .react-calendar__tile--now {
+	background-color: #203047;
+	color: #fff;
+	border-radius: 5px;
+}

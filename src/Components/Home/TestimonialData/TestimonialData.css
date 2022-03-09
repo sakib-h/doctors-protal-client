@@ -1,0 +1,36 @@
+.testimonialData {
+	padding: 20px;
+}
+.testimonialData .dataContainer {
+	padding: 25px 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+.testimonialData .dataContainer:hover {
+	transform: scale(103%);
+	box-shadow: 1.5px 2.5px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialData .dataContainer p {
+	font-size: 12px;
+	font-weight: 400;
+	color: #595762;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.testimonialData .infoArea {
+	padding: 20px;
+}
+.testimonialData .infoArea h4 {
+	font-size: 15px;
+	font-weight: 700;
+	color: #5fc7c7;
+	margin-bottom: 10px;
+}
+.testimonialData .infoArea h5 {
+	font-size: 12px;
+	font-weight: 500;
+	color: #8f8c9b;
+}

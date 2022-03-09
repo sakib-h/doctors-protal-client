@@ -1,0 +1,32 @@
+.dashboardInfo {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+.dashboardInfo .bgContainer {
+	padding: 15px;
+	color: #fff;
+	border-radius: 10px;
+}
+.dashboardInfo .pendingAppointment {
+	background-color: #f1536e;
+}
+.dashboardInfo .todaysAppointment {
+	background-color: #3da5f4;
+}
+.dashboardInfo .totalAppointment {
+	background-color: #00c689;
+}
+.dashboardInfo .totalPatients {
+	background-color: #fda006;
+}
+.dashboardInfo h3 {
+	font-size: 45px;
+	font-weight: 600;
+	padding: 10px 15px;
+}
+.dashboardInfo h6 {
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 15px;
+}

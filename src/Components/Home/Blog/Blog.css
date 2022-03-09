@@ -1,0 +1,102 @@
+.blog {
+	margin-bottom: 100px;
+}
+
+.blog .text {
+	text-align: center;
+}
+.blog h4 {
+	font-weight: 700;
+	font-size: 18px;
+	color: #5fc7c7;
+	margin-bottom: 20px;
+}
+.blog h1 {
+	font-size: 48px;
+	margin-bottom: 60px;
+}
+.blog .col-md-4 {
+	padding: 20px;
+	position: relative;
+}
+.blog .blogContainer {
+	padding: 20px;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+.blog .blogContainer:hover {
+	transform: scale(103%);
+	box-shadow: 1.5px 2.5px 8px 1px rgba(0, 0, 0, 0.1);
+}
+.blog .blogContainer .proInfo {
+	margin-bottom: 30px;
+}
+
+.blog .blogContainer .proInfo h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #3c3c3e;
+	margin-bottom: 30px;
+}
+.blog .blogContainer .proInfo p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #b3b2b5;
+}
+
+.blog .blogContainer .proText {
+	padding: 20px;
+}
+.blog .blogContainer .proText h5 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #3c3c3e;
+	margin-bottom: 10px;
+}
+.blog .blogContainer .proText h6 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #b3b2b5;
+}
+.blog .special {
+	height: 100%;
+	color: #fff;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	position: relative;
+}
+.blog .special .quotes {
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.blog .special h5 {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.blog .special h6 {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.blog .special p {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 79px;
+}
+.blog .special .icon {
+	font-size: 26px;
+	font-weight: 400;
+}
+.blog .special img {
+	width: 70%;
+	position: absolute;
+	opacity: 50%;
+}

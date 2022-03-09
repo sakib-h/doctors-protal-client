@@ -1,0 +1,68 @@
+.contactForm {
+	text-align: center;
+	padding: 20px;
+}
+.contactForm.bgContainer {
+	background-image: url(../../../images/appointment-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+.contactForm.bgContainer .colorOverlay {
+	background-color: rgba(58, 66, 86, 0.9);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.contactForm .content {
+	position: relative;
+	z-index: 2;
+}
+.contactForm h4 {
+	font-weight: 700;
+	font-size: 18px;
+	color: #5fc7c7;
+	margin-bottom: 20px;
+}
+.contactForm h1 {
+	font-size: 45px;
+	margin-bottom: 40px;
+	color: #ffffff;
+}
+.contactForm .form {
+	margin-bottom: 40px;
+}
+.contactForm .formInput {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 12px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+.contactForm .formInput::placeholder {
+	color: #b4b3b6;
+	font-size: 14px;
+	font-weight: 500;
+}
+.contactForm .submitButton {
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	padding: 12px 60px;
+	border-radius: 2px;
+	border: none;
+}

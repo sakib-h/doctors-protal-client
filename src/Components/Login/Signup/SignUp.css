@@ -1,0 +1,118 @@
+.signUp {
+	position: relative;
+	height: 100vh;
+}
+.signUp p {
+	margin-bottom: 0;
+}
+.signUp a {
+	font-size: 12px;
+	font-weight: 700;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.signUp h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.signUp h4 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.signUp h5 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #686868;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.signUp h6 {
+	font-size: 10px;
+	font-weight: 400;
+	color: #686868;
+	color: #eb6969;
+	cursor: pointer;
+	margin-top: -10px;
+}
+
+.signUp .imgContainer {
+	position: absolute;
+	bottom: 0;
+}
+.signUp .form_Container {
+	width: 90%;
+	padding: 30px 5px;
+}
+.signUp .formGroup {
+	position: relative;
+	margin: 10px 0;
+	border-bottom: 1.5px solid rgba(104, 104, 104, 0.7);
+}
+
+.signUp input {
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+}
+.signUp input:focus {
+	border: none;
+	background: none;
+	outline: none;
+}
+.signUp label {
+	font-size: 12px;
+	color: rgba(104, 104, 104, 0.7);
+}
+.signUp .submit {
+	font-weight: 700;
+	font-size: 12px;
+	color: #ffffff;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 211, 174, 1) 0%,
+		rgba(15, 207, 236, 1) 100%
+	);
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	border-radius: 2px;
+	border: none;
+}
+.signUp .socialLogin {
+	margin-bottom: 20px;
+}
+
+.signUp .socialLoginBtn {
+	width: 48%;
+	font-size: 12px;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+}
+.signUp .googleBtn {
+	background-color: #ffffff;
+	color: rgb(63, 63, 63);
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+
+.signUp .facebookBtn {
+	background-color: #3b5998;
+	color: #ffffff;
+	box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.16);
+	transition: 0.4s;
+}
+
+.signUp .googleBtn:hover,
+.signUp .facebookBtn:hover {
+	transform: scale(103%);
+	box-shadow: 1.5px 2.5px 8px 1px rgba(0, 0, 0, 0.1);
+}

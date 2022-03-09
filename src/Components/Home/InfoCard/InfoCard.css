@@ -1,0 +1,27 @@
+.infoCard {
+    color: #fff;
+}
+
+.info-primary {
+    background-color: #1cc7c1;
+    border-radius: 5px;
+}
+.info-dark {
+    background-color: #3a4256;
+    border-radius: 5px;
+}
+.infoIcon {
+    font-size: 4em;
+    padding: 45px 10px;
+}
+.infoText {
+    padding: 50px 10px;
+}
+.infoText h4 {
+    font-weight: 700;
+    font-size: 14px;
+}
+.infoText small {
+    font-weight: 400;
+    font-size: 10px;
+}

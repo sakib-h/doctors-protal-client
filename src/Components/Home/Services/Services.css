@@ -1,0 +1,19 @@
+.services {
+	margin-bottom: 80px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.services .text {
+	text-align: center;
+}
+.services h4 {
+	font-weight: 700;
+	font-size: 18px;
+	color: #5fc7c7;
+	margin-bottom: 20px;
+}
+.services h1 {
+	font-weight: 600;
+	font-size: 48px;
+	margin-bottom: 60px;
+}
